@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx nodemon server.js",
     "start": "node server.js",
-    "test": "npx newman run Users-API-Collection.postman_collection.json -e My-Remote-API-Testing.postman_environment.json"
+    "test": "npx newman run Users-API-Collection.postman_collection.json -e staging.postman_environment.json"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "newman": "^6.1.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^3.1.9"
   }
 }
